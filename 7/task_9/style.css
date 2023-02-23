@@ -1,0 +1,27 @@
+.menu ul {
+    margin: 0;
+    list-style: none;
+    padding-left: 25px;
+    display: none;
+}
+
+.title {
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.title::before {
+    content: "> ";
+    display: inline-block;
+    color: green;
+}
+
+.open .title::before {
+    content: "> ";
+    rotate: 90deg;
+}
+
+.open ul {
+    display: block;
+}
