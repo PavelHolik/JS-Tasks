@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.result{
+    max-width: 450px;
+    margin-left: 15px;
+}
+.name{
+    padding: 10px 0 10px;
+}
+.email{
+    font-style: italic;
+    padding: 10px 0 10px;
+}
